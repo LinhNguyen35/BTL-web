@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> &#127836 Quán nhậu 3 miền </title>	
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+<div class="hotline-phone-ring-wrap">
+    <div class="hotline-phone-ring">
+        <div class="hotline-phone-ring-circle"></div>
+        <div class="hotline-phone-ring-circle-fill"></div>
+        <div class="hotline-phone-ring-img-circle">
+        <a href="tel:0869646562" class="pps-btn-img">
+            <img src="https://nguyenhung.net/wp-content/uploads/2019/05/icon-call-nh.png" alt="Gọi điện thoại" width="50">
+        </a>
+        </div>
+    </div>
+    <div class="hotline-bar">
+        <a href="tel:0869646562">
+            <span class="text-hotline">0869646562</span>
+        </a>
+    </div>
+</div>  
+<div id ="menu_top">
+    <ul class ="root">
+        <li><a href="trangchu.html" class="hover">&#127968</a></li>
+        <li><a href="index.html" class="hover">Tin tức</a></li>
+        <li>
+        <a href="thucdon.html" class="hover">Thực đơn   &#8803</a>
+        <ul class="sub_menu">
+        <li><a href="atmienbac.html" class="hover">Ẩm thực miền Bắc</a></li>
+        <li><a href="atmientrung.html" class="hover">Ẩm thực miền Trung</a></li>
+        <li><a href="atmiennam.html" class="hover">Ẩm thực miền Nam</a></li>
+        <li><a href="drinks.html" class="hover">Đồ uống và tráng miệng</a></li>
+        </ul>
+        </li>
+        <li><a href="datban.html" class="hover">Đặt bàn</a></li>
+        <li><a href="tuyendung.html" class="hover">Tuyển dụng</a></li>
+        <li><a href="uudai.html" class="hover">Ưu đãi</a></li>
+        <li><a href="lienhe.html" class="hover">Liên hệ</a></li>
+    </ul>
+</div>
+<div id ="banner">
+  <img src="./img/banner2.png">     
+</div>
+<h1 style="text-align: center; padding-bottom: 20px;">Đặt bàn</h1>
+    <form method="POST" action="./quan_tri_tin_tuc_them_thuc_hien.php" enctype="multipart/form-data">
+        <p>
+            Tên người đặt bàn:<br>
+            <input type="text" name="txtTennguoidat" style="width: 100%;">
+        </p>
+        <p>
+            Số điện thoại:<br>
+            <input type="text" name="txtSDT" style="width: 100%;">
+        </p>
+        <p>
+            Số người đặt bàn:<br>
+            <input type="text" name="txtSonguoi" style="width: 100%;">
+        </p>
+        <p>
+            Thời gian đặt bàn:<br>
+            <input type="text" name="txtthoigian" style="width: 100%;">
+        </p>
+        <p>
+            Ghi chú:<br>
+            <textarea name="txtGhichu" style="width: 100%;"></textarea>
+        </p>
+        <button type="submit">Đặt bàn</button>
+    </form>
+
+<div id ="footer">
+<div class ="footer_bottom">&copy;linhntt.com.vn | Designed by Linh Nguyen</div>
+</div>
+</body>
+</html>
